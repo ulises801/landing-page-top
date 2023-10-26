@@ -159,3 +159,11 @@ padding: 50px 25vw;
     font-weight: lighter;
     font-size: 13px;
 }
+
+footer{
+    background-color: var(--black);
+    color: white;
+    padding: 35px 50px;
+    text-align: center;
+    font-size: 12px;
+}
