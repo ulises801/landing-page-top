@@ -1,0 +1,108 @@
+:root {
+    --orange: #FF6B35;
+    --blue: #348AA7;
+    --green: #35CE8D;
+    --black: #353535;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 15px 25vw;
+    margin: 0;
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: var(--green);
+}
+
+#logo {
+    width: 90px;
+}
+
+.hero{
+    margin: 0;
+    padding: 50px 25vw;
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-between;
+}
+
+#astro{
+    width: 400px;
+}
+
+h1, h2{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: var(--black);
+}
+
+.left-hero{
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fill-button{
+    width: 100px;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.fill-button:hover{
+    background-color: #35CE8D;
+    color: white;
+}
+
+.info{
+    background-color: whitesmoke;
+    padding: 50px 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.in-info{
+    display: flex;
+    margin-top: 35px;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--black);
+}
+
+.material-symbols-outlined{
+    font-size: 50px;
+}
