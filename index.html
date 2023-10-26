@@ -5,10 +5,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hitachi De.</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap"
-        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
 </head>
@@ -52,24 +52,39 @@
             </div>
             <div class="card">
                 <span class="material-symbols-outlined">
-                    video_camera_back
+                    apparel
+                </span>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="card">
+                <span class="material-symbols-outlined">
+                    rocket
                 </span>
                 <p>this is some subtext under an illustration or image</p>
             </div>
         </div>
     </section>
 
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad necessitatibus
-        temporibus voluptatibus, explicabo fugit esse nostrum, iste quod aut
-        aspernatur asperiores quam nam voluptatum voluptas nulla accusantium,
-        natus soluta! Voluptates?
-    </p>
-    <p>- quote author</p>
+    <div class="quote">
+        <p class="quote-in">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad necessitatibus
+            temporibus voluptatibus, explicabo fugit esse nostrum, iste quod aut
+            aspernatur asperiores quam nam voluptatum voluptas nulla accusantium,
+            natus soluta! Voluptates?
+        </p>
+        <p class="author">- Sun Li, Profet</p>
+    </div>
 
-    <h3>Call to action! It's time!</h3>
-    <p>Sign up for our product by clicking that button right over there!</p>
-    <button>Sign up</button>
+    <section class="call-section">
+        <div class="call-to-action">
+            <div class="call-left">
+                <h3>Call to action! It's time!</h3>
+                <p id="no">Sign up for our product by clicking that button right over there!</p>
+            </div>
+
+            <button class="button-unfilled">Sign up</button>
+        </div>
+    </section>
 
     <footer>Copyright The Odin Project 2023</footer>
 </body>

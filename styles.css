@@ -52,7 +52,7 @@ a:hover{
     width: 400px;
 }
 
-h1, h2{
+h1, h2, h3{
     margin: 0;
     padding: 0;
 }
@@ -82,7 +82,7 @@ h2{
 }
 
 .info{
-    background-color: whitesmoke;
+    background-color: white;
     padding: 50px 25vw;
     display: flex;
     flex-direction: column;
@@ -105,4 +105,57 @@ h2{
 
 .material-symbols-outlined{
     font-size: 50px;
+}
+
+.quote{
+    background-color: whitesmoke;
+    padding: 40px 25vw;
+}
+
+.quote-in{
+    font-size: 24px;
+    font-style: italic;
+    color: var(--black);
+}
+
+.author{
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--black);
+}
+
+.call-section{
+padding: 50px 25vw;
+}
+
+.call-to-action{
+    padding: 35px 50px;
+    border-radius: 5px;
+    background-color: var(--green);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-left{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.button-unfilled{
+    width: 100px;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+    background-color: var(--green);
+}
+
+#no{
+    margin: 0;
+    font-weight: lighter;
+    font-size: 13px;
 }
